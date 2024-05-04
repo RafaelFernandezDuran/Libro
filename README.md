@@ -1,0 +1,8 @@
+- `Libro.__init__()`: Inicializa un objeto Libro con un título, autor y año de publicación.
+- `Biblioteca.__init__()`: Inicializa una biblioteca sin libros.
+- `Biblioteca.agregar_libro()`: Agrega un libro a la biblioteca, verificando que tenga título y autor.
+- `Biblioteca.buscar_libro()`: Busca un libro por título en la biblioteca y lo devuelve si se encuentra.
+- `Biblioteca.mostrar_libros()`: Muestra todos los libros de la biblioteca o un mensaje si está vacía.
+- `ErrorLibroSinTitulo.__init__()`: Inicializa una excepción para libros sin título.
+- `ErrorLibroSinAutor.__init__()`: Inicializa una excepción para libros sin autor.
+- `main()`: Controla el flujo principal del programa, permitiendo al usuario agregar, buscar y mostrar libros en la biblioteca.
